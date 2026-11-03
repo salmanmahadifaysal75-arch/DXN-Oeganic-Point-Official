@@ -1,0 +1,6 @@
+{
+  "name": "DXN Organic Point",
+  "description": "Premium Natural Products, Organic Cosmetics, Skincare, Personal Care, and Wellness E-Commerce Platform in Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

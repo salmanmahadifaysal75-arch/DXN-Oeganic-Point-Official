@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DXN Organic Point — Natural Skincare, Cosmetics & Wellness</title>
+    <meta
+      name="description"
+      content="Shop authentic DXN natural skincare, organic cosmetics, personal care, Lingzhi coffee, and botanical wellness products in Bangladesh with nationwide delivery."
+    />
+    <meta
+      name="keywords"
+      content="DXN Bangladesh, DXN Organic Point, Ganozhi toothpaste, Ganozhi soap, Aloe V skincare, Lingzhi black coffee, organic cosmetics Bangladesh"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DXN Organic Point" />
+    <meta property="og:title" content="DXN Organic Point — Natural Skincare, Cosmetics & Wellness" />
+    <meta
+      property="og:description"
+      content="Shop authentic DXN natural skincare, organic cosmetics, personal care, Lingzhi coffee, and botanical wellness products in Bangladesh with nationwide delivery."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DXN Organic Point — Natural Skincare, Cosmetics & Wellness" />
+    <meta
+      name="twitter:description"
+      content="Shop authentic DXN natural skincare, organic cosmetics, personal care, Lingzhi coffee, and botanical wellness products in Bangladesh."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" id="dxn-jsonld-org">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DXN Organic Point",
+        "description": "Independent retail storefront for authentic DXN natural skincare, organic cosmetics, personal care, and wellness products in Bangladesh.",
+        "areaServed": "BD",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+880-1711-009988",
+          "contactType": "customer service",
+          "areaServed": "BD",
+          "availableLanguage": ["en", "bn"]
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --dxn-forest: #173d32;
+        --dxn-emerald: #245b45;
+        --dxn-sage: #a8b9a0;
+        --dxn-ivory: #f8f6ef;
+        --dxn-gold: #c6a76a;
+        --dxn-white: #ffffff;
+        --dxn-charcoal: #252b27;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background-color: var(--dxn-ivory);
+        color: var(--dxn-charcoal);
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-serif-display {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+      }
+      .font-mono-tabular {
+        font-family: 'JetBrains Mono', monospace;
+        font-variant-numeric: tabular-nums;
+      }
+      @keyframes dxnFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .dxn-float {
+        animation: dxnFloat 4.5s ease-in-out infinite;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .dxn-float { animation: none; }
+      }
+    </style>
+    <script>
+      // Automatically inject Tailwind CDN when index.html is opened standalone outside Vite
+      (function () {
+        window.addEventListener('DOMContentLoaded', function () {
+          setTimeout(function () {
+            if (!window.__DXN_REACT_MOUNTED__ && !document.getElementById('dxn-tailwind-cdn')) {
+              var tw = document.createElement('script');
+              tw.id = 'dxn-tailwind-cdn';
+              tw.src = 'https://cdn.tailwindcss.com';
+              document.head.appendChild(tw);
+            }
+          }, 80);
+        });
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8F6EF] text-[#252B27] antialiased selection:bg-[#173D32] selection:text-[#F8F6EF]">
+    <div id="root">
+      <!-- =====================================================================
+           DXN ORGANIC POINT — COMPLETE STANDALONE INDEX.HTML APPLICATION SHELL
+           Works immediately when opened as a standalone index.html file, and
+           seamlessly hydrates with the live PostgreSQL React app on Cloud Run.
+           ===================================================================== -->
+      <div id="dxn-standalone-app" class="min-h-screen flex flex-col bg-[#F8F6EF] text-[#252B27]">
+        <!-- Top Announcement Bar -->
+        <div class="bg-[#173D32] text-[#F8F6EF] text-xs py-2.5 px-4 text-center font-medium tracking-wide">
+          Complimentary Delivery Across Bangladesh on Orders Over ৳2,500 · Use Code <span class="text-[#C6A76A] font-semibold">ORGANIC10</span> for 10% Savings
+        </div>
+
+        <!-- Sticky Header Navigation -->
+        <header class="sticky top-0 z-40 bg-[#F8F6EF]/95 backdrop-blur-md border-b border-[#A8B9A0]/35">
+          <div class="max-w-[1440px] mx-auto px-4 sm:px-8 h-16 flex items-center justify-between gap-4">
+            <a href="#home" onclick="window.dxnApp && window.dxnApp.navigate('home'); return false;" class="font-serif-display text-2xl font-bold text-[#173D32] tracking-tight whitespace-nowrap no-underline">
+              DXN Organic Point
+            </a>
+            <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-[#252B27]">
+              <a href="#shop" onclick="window.dxnApp && window.dxnApp.navigate('shop'); return false;" class="hover:text-[#173D32] transition-colors no-underline">Shop</a>
+              <a href="#categories" onclick="window.dxnApp && window.dxnApp.navigate('categories'); return false;" class="hover:text-[#173D32] transition-colors no-underline">Categories (16)</a>
+              <a href="#offers" onclick="window.dxnApp && window.dxnApp.navigate('offers'); return false;" class="hover:text-[#173D32] transition-colors no-underline">Special Offers</a>
+              <a href="#journal" onclick="window.dxnApp && window.dxnApp.navigate('journal'); return false;" class="hover:text-[#173D32] transition-colors no-underline">Journal</a>
+              <a href="#track" onclick="window.dxnApp && window.dxnApp.navigate('track'); return false;" class="hover:text-[#173D32] transition-colors no-underline">Track Order</a>
+              <a href="#account" onclick="window.dxnApp && window.dxnApp.navigate('account'); return false;" class="hover:text-[#173D32] transition-colors no-underline">Account</a>
+              <a href="#admin" onclick="window.dxnApp && window.dxnApp.navigate('admin'); return false;" class="text-[#245B45] font-semibold hover:text-[#173D32] transition-colors no-underline">Admin Console</a>
+            </nav>
+            <div class="flex items-center gap-2.5">
+              <button
+                type="button"
+                onclick="window.dxnApp && window.dxnApp.toggleCart(true)"
+                class="px-4 py-2 rounded-lg bg-[#173D32] text-[#F8F6EF] text-xs font-semibold hover:bg-[#245B45] transition-colors font-mono-tabular cursor-pointer border-0"
+              >
+                Bag (<span id="dxn-standalone-cart-count">0</span>)
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <!-- Main View Container -->
+        <main id="dxn-standalone-main" class="flex-1 max-w-[1440px] w-full mx-auto px-4 sm:px-8 py-8 space-y-14">
+          <!-- Hero Split Banner -->
+          <section class="rounded-2xl overflow-hidden border border-[#A8B9A0]/40 bg-[#173D32] text-[#F8F6EF] shadow-sm">
+            <div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+              <div class="lg:col-span-7 p-8 sm:p-12 lg:p-14 space-y-6">
+                <p class="text-xs uppercase tracking-[0.2em] text-[#C6A76A] font-semibold">
+                  Authentic Botanical Retail · Dhaka &amp; Nationwide Bangladesh
+                </p>
+                <h1 class="font-serif-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.08] text-[#F8F6EF] m-0">
+                  Botanical Skincare &amp; Mindful Daily Wellness
+                </h1>
+                <p class="text-sm sm:text-base text-[#F8F6EF]/85 max-w-xl leading-relaxed">
+                  Authentic DXN formulations crafted with Ganoderma, Aloe Vera, and plant-based botanicals—delivered across all 64 districts of Bangladesh.
+                </p>
+                <div class="flex flex-wrap items-center gap-3 pt-2">
+                  <button
+                    type="button"
+                    onclick="window.dxnApp && window.dxnApp.navigate('shop')"
+                    class="px-6 py-3.5 rounded-lg bg-[#C6A76A] text-[#173D32] font-semibold text-sm hover:bg-[#d4b87e] transition-colors cursor-pointer border-0"
+                  >
+                    Shop Collection →
+                  </button>
+                  <button
+                    type="button"
+                    onclick="window.dxnApp && window.dxnApp.navigate('categories')"
+                    class="px-6 py-3.5 rounded-lg border border-[#A8B9A0]/50 bg-transparent text-[#F8F6EF] font-medium text-sm hover:bg-[#245B45]/50 transition-colors cursor-pointer"
+                  >
+                    Browse 16 Categories
+                  </button>
+                </div>
+              </div>
+              <div class="lg:col-span-5 bg-[#F8F6EF] p-8 sm:p-12 flex items-center justify-center min-h-[360px]">
+                <svg viewBox="0 0 400 420" class="w-64 sm:w-72 h-auto dxn-float" role="img" aria-label="DXN Botanical Apothecary Vessel">
+                  <circle cx="200" cy="210" r="145" fill="#A8B9A0" fill-opacity="0.22" />
+                  <ellipse cx="200" cy="360" rx="125" ry="18" fill="#DEDAD0" />
+                  <rect x="75" y="340" width="250" height="22" rx="6" fill="#E5E0D5" />
+                  <rect x="140" y="130" width="120" height="205" rx="22" fill="#173D32" stroke="#C6A76A" stroke-width="2" />
+                  <rect x="160" y="110" width="80" height="20" rx="4" fill="#C6A76A" />
+                  <rect x="172" y="88" width="56" height="22" rx="6" fill="#252B27" />
+                  <circle cx="200" cy="78" r="14" fill="#252B27" />
+                  <rect x="150" y="168" width="100" height="132" rx="8" fill="#F8F6EF" stroke="#C6A76A" stroke-width="1.5" />
+                  <text x="200" y="196" text-anchor="middle" fill="#245B45" font-size="8.5" font-family="Plus Jakarta Sans, sans-serif" letter-spacing="2.2" font-weight="600">DXN ORGANIC</text>
+                  <line x1="168" y1="205" x2="232" y2="205" stroke="#C6A76A" stroke-width="1" />
+                  <text x="200" y="226" text-anchor="middle" fill="#173D32" font-size="10.5" font-family="Cormorant Garamond, Georgia, serif" font-weight="700">BOTANICAL APOTHECARY</text>
+                  <text x="200" y="244" text-anchor="middle" fill="#245B45" font-size="8.5" font-family="Plus Jakarta Sans, sans-serif">Skincare &amp; Wellness</text>
+                  <text x="200" y="276" text-anchor="middle" fill="#252B27" font-size="8" font-family="JetBrains Mono, monospace">2026 Collection</text>
+                </svg>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-[#A8B9A0]/25 bg-[#123128] text-xs">
+              <div class="p-4 sm:px-6 border-b sm:border-b-0 sm:border-r border-[#A8B9A0]/20">
+                <p class="font-semibold text-[#F8F6EF] m-0">100% Factory-Sealed Batches</p>
+                <p class="text-[#A8B9A0] mt-0.5 m-0">Verified batch codes &amp; expiry dates</p>
+              </div>
+              <div class="p-4 sm:px-6 border-b sm:border-b-0 lg:border-r border-[#A8B9A0]/20">
+                <p class="font-semibold text-[#F8F6EF] m-0">All 64 Districts Delivery</p>
+                <p class="text-[#A8B9A0] mt-0.5 m-0">৳70 Inside Dhaka · Free over ৳2,500</p>
+              </div>
+              <div class="p-4 sm:px-6 border-b sm:border-b-0 sm:border-r border-[#A8B9A0]/20">
+                <p class="font-semibold text-[#F8F6EF] m-0">24–48 Hour Dhaka Dispatch</p>
+                <p class="text-[#A8B9A0] mt-0.5 m-0">Climate-controlled Banani hub</p>
+              </div>
+              <div class="p-4 sm:px-6">
+                <p class="font-semibold text-[#F8F6EF] m-0">Flexible Bangladesh Checkout</p>
+                <p class="text-[#A8B9A0] mt-0.5 m-0">Cash on Delivery, bKash, Nagad &amp; SSLCommerz</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Dynamic View Target for Standalone Mode -->
+          <div id="dxn-standalone-view"></div>
+        </main>
+
+        <!-- Slide-Over Cart & Checkout Modal (Standalone Mode) -->
+        <div id="dxn-standalone-cart-modal" class="hidden fixed inset-0 z-50 bg-black/50 backdrop-blur-xs flex justify-end">
+          <div class="bg-[#F8F6EF] w-full max-w-md h-full flex flex-col justify-between p-6 overflow-y-auto shadow-2xl border-l border-[#A8B9A0]/40">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between border-b border-[#A8B9A0]/40 pb-4">
+                <h2 class="font-serif-display text-2xl font-semibold text-[#173D32] m-0">Your Shopping Bag</h2>
+                <button type="button" onclick="window.dxnApp && window.dxnApp.toggleCart(false)" class="text-xs font-semibold px-3 py-1.5 rounded bg-white border border-[#A8B9A0]/50 cursor-pointer">Close</button>
+              </div>
+              <div id="dxn-standalone-cart-items" class="space-y-3"></div>
+            </div>
+            <div id="dxn-standalone-cart-footer" class="pt-4 border-t border-[#A8B9A0]/40 space-y-4"></div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-[#173D32] text-[#F8F6EF] mt-16 border-t border-[#C6A76A]/30">
+          <div class="max-w-[1440px] mx-auto px-4 sm:px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 text-xs">
+            <div class="space-y-3">
+              <h3 class="font-serif-display text-2xl font-semibold text-[#F8F6EF] m-0">DXN Organic Point</h3>
+              <p class="text-[#A8B9A0] leading-relaxed">
+                Botanical Skincare, Personal Care &amp; Mindful Daily Wellness. Serving households across all 64 districts of Bangladesh from our climate-controlled fulfillment hub in Banani, Dhaka.
+              </p>
+              <p class="text-[#C6A76A] font-mono-tabular">+880 1711-009988 · care@dxnorganicpoint.com</p>
+            </div>
+            <div class="space-y-2">
+              <h4 class="text-[#C6A76A] uppercase tracking-wider font-semibold">Collections</h4>
+              <ul class="space-y-1.5 list-none p-0 m-0">
+                <li><a href="#shop" onclick="window.dxnApp && window.dxnApp.navigate('shop'); return false;" class="text-[#F8F6EF]/85 hover:text-white no-underline">Shop All Products</a></li>
+                <li><a href="#categories" onclick="window.dxnApp && window.dxnApp.navigate('categories'); return false;" class="text-[#F8F6EF]/85 hover:text-white no-underline">All 16 Categories</a></li>
+                <li><a href="#offers" onclick="window.dxnApp && window.dxnApp.navigate('offers'); return false;" class="text-[#F8F6EF]/85 hover:text-white no-underline">Special Offers</a></li>
+              </ul>
+            </div>
+            <div class="space-y-2">
+              <h4 class="text-[#C6A76A] uppercase tracking-wider font-semibold">Customer Care</h4>
+              <ul class="space-y-1.5 list-none p-0 m-0">
+                <li><a href="#track" onclick="window.dxnApp && window.dxnApp.navigate('track'); return false;" class="text-[#F8F6EF]/85 hover:text-white no-underline">Track My Order</a></li>
+                <li><a href="#account" onclick="window.dxnApp && window.dxnApp.navigate('account'); return false;" class="text-[#F8F6EF]/85 hover:text-white no-underline">Customer Account</a></li>
+                <li><a href="#journal" onclick="window.dxnApp && window.dxnApp.navigate('journal'); return false;" class="text-[#F8F6EF]/85 hover:text-white no-underline">Wellness Journal</a></li>
+              </ul>
+            </div>
+            <div class="space-y-2">
+              <h4 class="text-[#C6A76A] uppercase tracking-wider font-semibold">Enterprise &amp; SEO</h4>
+              <ul class="space-y-1.5 list-none p-0 m-0">
+                <li><a href="#admin" onclick="window.dxnApp && window.dxnApp.navigate('admin'); return false;" class="text-[#C6A76A] font-semibold hover:underline no-underline">Admin Dashboard (/admin)</a></li>
+                <li><a href="/sitemap.xml" target="_blank" class="text-[#F8F6EF]/85 hover:text-white no-underline">Dynamic XML Sitemap (/sitemap.xml)</a></li>
+                <li><a href="/api/export-index-html" download="index.html" class="text-[#F8F6EF]/85 hover:text-white no-underline">Download Standalone index.html</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Standalone Interactive E-Commerce Engine (activates automatically when index.html is opened directly as a standalone HTML file) -->
+    <script id="dxn-standalone-engine">
+      (function () {
+        var CATEGORIES = [
+          { slug: 'skincare', name: 'Skincare', desc: 'Botanical cleansers, toners, and Ganoderma-infused hydrators.' },
+          { slug: 'face-wash-cleansers', name: 'Face Wash & Cleansers', desc: 'pH-balanced aloe and Ganoderma cleansing gels.' },
+          { slug: 'facial-care', name: 'Facial Care', desc: 'Day creams, night emulsions, and botanical serums.' },
+          { slug: 'hair-care', name: 'Hair Care', desc: 'pH-balanced Ganoderma shampoos and nourishing hair oils.' },
+          { slug: 'body-care', name: 'Body Care', desc: 'Plant-based soaps, body washes, and massage oils.' },
+          { slug: 'personal-care', name: 'Personal Care', desc: 'Daily oral care, Ganozhi toothpaste, and hygiene essentials.' },
+          { slug: 'organic-beauty-products', name: 'Organic Beauty Products', desc: 'Natural lipsticks, botanical powders, and gentle cosmetics.' },
+          { slug: 'herbal-products', name: 'Herbal Products', desc: 'Time-honored botanical extracts and plant formulations.' },
+          { slug: 'health-wellness', name: 'Health & Wellness', desc: 'Daily nutritional botanicals and spirulina tablets.' },
+          { slug: 'functional-beverages', name: 'Functional Beverages', desc: 'Botanical cocoa, cereal blends, and nourishing drinks.' },
+          { slug: 'coffee-tea', name: 'Coffee & Tea', desc: 'Signature Lingzhi black coffee, 3-in-1, and Spica herbal tea.' },
+          { slug: 'nutritional-products', name: 'Nutritional Products', desc: 'Plant-rich spirulina cereal and morinzhi juices.' },
+          { slug: 'dxn-specialty-products', name: 'DXN Specialty Products', desc: 'Signature Ganoderma and Aloe.V formulations.' },
+          { slug: 'new-arrivals', name: 'New Arrivals', desc: 'Latest factory-sealed arrivals in our Dhaka hub.' },
+          { slug: 'best-sellers', name: 'Best Sellers', desc: 'Most loved DXN essentials across Bangladesh.' },
+          { slug: 'special-offers', name: 'Special Offers', desc: 'Curated value bundles and seasonal savings.' }
+        ];
+
+        var PRODUCTS = [
+          { id: 1, name: 'DXN Ganozhi Plus Toothpaste', slug: 'dxn-ganozhi-plus-toothpaste', sku: 'DXN-PC-001', category: 'personal-care', price: 650, discountPrice: 580, stock: 85, weight: '150g', badge: 'Best Seller', desc: 'Formulated with Ganoderma extract, food-grade gel, and menthol without artificial saccharin or coloring.' },
+          { id: 2, name: 'DXN Ganozhi Soap (Twin Pack)', slug: 'dxn-ganozhi-soap', sku: 'DXN-BC-002', category: 'body-care', price: 590, discountPrice: 520, stock: 64, weight: '2 x 80g', badge: 'Featured', desc: 'Enriched with Ganoderma extract and palm oil to cleanse gently while preserving natural skin moisture.' },
+          { id: 3, name: 'DXN Aloe.V Cleansing Gel', slug: 'dxn-aloev-cleansing-gel', sku: 'DXN-FW-003', category: 'face-wash-cleansers', price: 980, discountPrice: 890, stock: 42, weight: '100ml', badge: 'Featured', desc: 'Soap-free facial cleanser containing Aloe Vera extract to purify pores without stripping skin.' },
+          { id: 4, name: 'DXN Aloe.V Hydrating Toner', slug: 'dxn-aloev-hydrating-toner', sku: 'DXN-SK-004', category: 'skincare', price: 950, discountPrice: 860, stock: 38, weight: '100ml', badge: 'New Arrival', desc: 'Refreshing non-drying botanical formula with Aloe Vera, witch hazel, and botanical amino acids.' },
+          { id: 5, name: 'DXN Aloe.V Aqua Gel Moisturizer', slug: 'dxn-aloev-aqua-gel', sku: 'DXN-FC-005', category: 'facial-care', price: 1350, discountPrice: 1190, stock: 30, weight: '50g', badge: 'Best Seller', desc: 'Fast-absorbing daytime moisturizing gel that hydrates deeply suited for humid Bangladesh weather.' },
+          { id: 6, name: 'DXN Aloe.V Nutricare Night Cream', slug: 'dxn-aloev-nutricare-cream', sku: 'DXN-FC-006', category: 'facial-care', price: 1290, discountPrice: 1150, stock: 27, weight: '50g', badge: 'Special Offer', desc: 'Rich overnight botanical cream blended with Aloe Vera and evening primrose oil.' },
+          { id: 7, name: 'DXN Ganozhi Shampoo', slug: 'dxn-ganozhi-shampoo', sku: 'DXN-HC-007', category: 'hair-care', price: 1100, discountPrice: 980, stock: 50, weight: '250ml', badge: 'Best Seller', desc: 'pH-balanced hair cleanser with Ganoderma extract and Vitamin B5 for glossy, resilient hair.' },
+          { id: 8, name: 'DXN Gano Massage Oil', slug: 'dxn-gano-massage-oil', sku: 'DXN-BC-008', category: 'body-care', price: 1050, discountPrice: 940, stock: 44, weight: '75ml', badge: 'Featured', desc: '100% natural palm oil and Ganoderma extract blend for soothing scalp and body massage.' },
+          { id: 9, name: 'DXN Lingzhi Black Coffee', slug: 'dxn-lingzhi-black-coffee', sku: 'DXN-CT-009', category: 'coffee-tea', price: 1450, discountPrice: 1290, stock: 92, weight: '20 Sachets x 4.5g', badge: 'Best Seller', desc: 'Sugar-free gourmet Brazilian roast blended with pure Ganoderma extract.' },
+          { id: 10, name: 'DXN Lingzhi Coffee 3-in-1', slug: 'dxn-lingzhi-coffee-3in1', sku: 'DXN-CT-010', category: 'coffee-tea', price: 1550, discountPrice: 1390, stock: 76, weight: '20 Sachets x 21g', badge: 'Best Seller', desc: 'Smooth creamy coffee roast infused with Ganoderma lucidum extract.' },
+          { id: 11, name: 'DXN Cocozhi Botanical Cocoa', slug: 'dxn-cocozhi', sku: 'DXN-FB-011', category: 'functional-beverages', price: 1680, discountPrice: 1520, stock: 40, weight: '20 Sachets x 32g', badge: 'Featured', desc: 'Finest cocoa crafted with Ganoderma extract for a comforting family beverage.' },
+          { id: 12, name: 'DXN Spirulina Cereal', slug: 'dxn-spirulina-cereal', sku: 'DXN-NP-012', category: 'nutritional-products', price: 2450, discountPrice: 2250, stock: 34, weight: '30 Sachets x 30g', badge: 'Featured', desc: 'High-fiber whole wheat cereal blended with premium Spirulina platensis.' },
+          { id: 13, name: 'DXN Morinzhi Noni Botanical Drink', slug: 'dxn-morinzhi-285ml', sku: 'DXN-HP-013', category: 'herbal-products', price: 1850, discountPrice: 1680, stock: 29, weight: '285ml Glass Bottle', badge: 'New Arrival', desc: 'Fermented Morinda citrifolia botanical beverage enriched with natural Roselle.' },
+          { id: 14, name: 'DXN Chubby Baby & Family Oil', slug: 'dxn-chubby-baby-oil', sku: 'DXN-SK-014', category: 'organic-beauty-products', price: 820, discountPrice: 740, stock: 36, weight: '200ml', badge: 'Special Offer', desc: 'Gentle moisturizing oil infused with wheatgerm extract to soften delicate skin.' }
+        ];
+
+        var state = {
+          view: 'home',
+          selectedCategory: 'all',
+          searchQuery: '',
+          cart: [],
+          couponCode: '',
+          shippingZone: 'dhaka',
+          paymentMethod: 'cod',
+          orders: [
+            { orderNumber: 'DXN-2026-84910', customer: 'Nusrat Jahan', phone: '01711-223344', district: 'Dhaka', status: 'Delivered', payment: 'bKash (Paid)', total: 2450, date: '2026-11-01' }
+          ]
+        };
+
+        function getCartTotals() {
+          var subtotal = state.cart.reduce(function (acc, item) {
+            return acc + item.price * item.qty;
+          }, 0);
+          var discount = 0;
+          var code = (state.couponCode || '').trim().toUpperCase();
+          if (code === 'ORGANIC10' || code === 'WELCOME10') {
+            discount = Math.round(subtotal * 0.1);
+          } else if (code === 'DHAKA200' && subtotal >= 2000) {
+            discount = 200;
+          }
+          var shipping = subtotal === 0 ? 0 : subtotal >= 2500 ? 0 : state.shippingZone === 'dhaka' ? 70 : state.shippingZone === 'suburb' ? 100 : 130;
+          return { subtotal: subtotal, discount: discount, shipping: shipping, total: Math.max(0, subtotal - discount + shipping) };
+        }
+
+        function renderProductCard(p) {
+          return (
+            '<div class="bg-white rounded-xl border border-[#A8B9A0]/40 p-5 flex flex-col justify-between hover:border-[#173D32] transition-all">' +
+              '<div>' +
+                '<div class="flex items-center justify-between text-[11px] text-[#245B45] font-mono-tabular mb-3">' +
+                  '<span>' + p.sku + '</span>' +
+                  '<span class="font-semibold text-[#173D32]">' + p.badge + '</span>' +
+                '</div>' +
+                '<div class="bg-[#F8F6EF] rounded-lg p-6 mb-4 flex items-center justify-center">' +
+                  '<div class="w-16 h-24 rounded-lg bg-[#173D32] border-2 border-[#C6A76A] flex flex-col items-center justify-center text-center p-1.5">' +
+                    '<span class="text-[7px] text-[#C6A76A] tracking-widest uppercase">DXN</span>' +
+                    '<span class="text-[8px] text-[#F8F6EF] font-serif-display leading-tight mt-1">' + p.name.replace('DXN ', '').slice(0, 18) + '</span>' +
+                  '</div>' +
+                '</div>' +
+                '<h3 class="font-serif-display text-xl font-semibold text-[#173D32] m-0">' + p.name + '</h3>' +
+                '<p class="text-xs text-[#252B27]/75 mt-1.5 line-clamp-2">' + p.desc + '</p>' +
+              '</div>' +
+              '<div class="pt-4 mt-4 border-t border-[#F8F6EF] flex items-center justify-between">' +
+                '<div class="font-mono-tabular">' +
+                  '<span class="text-base font-bold text-[#173D32]">৳' + p.discountPrice + '</span>' +
+                  '<span class="text-xs text-[#252B27]/45 line-through ml-1.5">৳' + p.price + '</span>' +
+                '</div>' +
+                '<button type="button" onclick="window.dxnApp.addToCart(' + p.id + ')" class="px-3.5 py-2 rounded-lg bg-[#173D32] text-[#F8F6EF] text-xs font-semibold hover:bg-[#245B45] cursor-pointer border-0">Add to Bag</button>' +
+              '</div>' +
+            '</div>'
+          );
+        }
+
+        function renderView() {
+          if (window.__DXN_REACT_MOUNTED__) return;
+          var container = document.getElementById('dxn-standalone-view');
+          if (!container) return;
+
+          var countEl = document.getElementById('dxn-standalone-cart-count');
+          if (countEl) {
+            countEl.textContent = String(state.cart.reduce(function (s, i) { return s + i.qty; }, 0));
+          }
+
+          if (state.view === 'categories') {
+            container.innerHTML =
+              '<div class="space-y-6">' +
+                '<h2 class="font-serif-display text-3xl font-semibold text-[#173D32] m-0">All 16 Botanical Categories</h2>' +
+                '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">' +
+                  CATEGORIES.map(function (c) {
+                    return (
+                      '<div onclick="window.dxnApp.filterCategory(\'' + c.slug + '\')" class="bg-white p-5 rounded-xl border border-[#A8B9A0]/40 hover:border-[#173D32] cursor-pointer transition-all">' +
+                        '<h3 class="font-serif-display text-xl font-semibold text-[#173D32] m-0">' + c.name + '</h3>' +
+                        '<p class="text-xs text-[#252B27]/75 mt-1.5 mb-0">' + c.desc + '</p>' +
+                      '</div>'
+                    );
+                  }).join('') +
+                '</div>' +
+              '</div>';
+            return;
+          }
+
+          if (state.view === 'track') {
+            container.innerHTML =
+              '<div class="max-w-2xl mx-auto bg-white rounded-xl border border-[#A8B9A0]/40 p-8 space-y-6">' +
+                '<h2 class="font-serif-display text-3xl font-semibold text-[#173D32] m-0">Track Your DXN Order</h2>' +
+                '<p class="text-xs text-[#252B27]/75">Enter your Order Number (e.g., <span class="font-mono-tabular font-semibold">DXN-2026-84910</span>) to inspect live Bangladesh courier dispatch status.</p>' +
+                '<div class="flex gap-2">' +
+                  '<input id="dxn-track-input" type="text" value="DXN-2026-84910" class="flex-1 px-4 py-2.5 rounded-lg bg-[#F8F6EF] border border-[#A8B9A0]/60 text-sm font-mono-tabular" />' +
+                  '<button type="button" onclick="window.dxnApp.lookupOrder()" class="px-5 py-2.5 rounded-lg bg-[#173D32] text-[#F8F6EF] text-xs font-semibold cursor-pointer border-0">Track Order</button>' +
+                '</div>' +
+                '<div id="dxn-track-result" class="p-4 rounded-lg bg-[#F8F6EF] text-xs font-mono-tabular">Order DXN-2026-84910 · Status: Delivered · Destination: Dhaka · Total: ৳2,450</div>' +
+              '</div>';
+            return;
+          }
+
+          if (state.view === 'admin') {
+            container.innerHTML =
+              '<div class="bg-white rounded-xl border border-[#A8B9A0]/40 p-8 space-y-6">' +
+                '<div class="flex flex-wrap items-center justify-between gap-4 border-b border-[#A8B9A0]/30 pb-4">' +
+                  '<div>' +
+                    '<p class="text-xs uppercase tracking-widest text-[#245B45] font-semibold m-0">Enterprise Console</p>' +
+                    '<h2 class="font-serif-display text-3xl font-semibold text-[#173D32] m-0">DXN Admin &amp; Dynamic XML Sitemap Inspector</h2>' +
+                  '</div>' +
+                  '<span class="text-xs font-mono-tabular text-[#245B45]">16 Categories · ' + PRODUCTS.length + ' Active Products · ' + state.orders.length + ' Orders</span>' +
+                '</div>' +
+                '<div class="grid grid-cols-1 sm:grid-cols-4 gap-4 font-mono-tabular">' +
+                  '<div class="p-4 rounded-lg bg-[#F8F6EF]"><div class="text-xs text-[#245B45]">Active Products</div><div class="text-2xl font-bold text-[#173D32]">' + PRODUCTS.length + '</div></div>' +
+                  '<div class="p-4 rounded-lg bg-[#F8F6EF]"><div class="text-xs text-[#245B45]">Categories</div><div class="text-2xl font-bold text-[#173D32]">16</div></div>' +
+                  '<div class="p-4 rounded-lg bg-[#F8F6EF]"><div class="text-xs text-[#245B45]">Total Orders</div><div class="text-2xl font-bold text-[#173D32]">' + state.orders.length + '</div></div>' +
+                  '<div class="p-4 rounded-lg bg-[#F8F6EF]"><div class="text-xs text-[#245B45]">XML Sitemaps</div><div class="text-2xl font-bold text-[#173D32]">5 Active</div></div>' +
+                '</div>' +
+              '</div>';
+            return;
+          }
+
+          var filtered = PRODUCTS.filter(function (p) {
+            var matchCat = state.selectedCategory === 'all' || p.category === state.selectedCategory;
+            var matchSearch = !state.searchQuery || p.name.toLowerCase().indexOf(state.searchQuery.toLowerCase()) !== -1;
+            return matchCat && matchSearch;
+          });
+
+          container.innerHTML =
+            '<div class="space-y-6">' +
+              '<div class="flex flex-wrap items-center justify-between gap-4">' +
+                '<div>' +
+                  '<p class="text-xs uppercase tracking-widest text-[#245B45] m-0">Curated Botanical Formulations</p>' +
+                  '<h2 class="font-serif-display text-3xl font-semibold text-[#173D32] m-0">Signature DXN Essentials (' + filtered.length + ')</h2>' +
+                '</div>' +
+                '<div class="flex flex-wrap items-center gap-2">' +
+                  '<input type="search" placeholder="Search DXN products..." value="' + state.searchQuery + '" oninput="window.dxnApp.setSearch(this.value)" class="px-3.5 py-2 rounded-lg bg-white border border-[#A8B9A0]/60 text-xs" />' +
+                  '<button type="button" onclick="window.dxnApp.filterCategory(\'all\')" class="px-3 py-2 rounded-lg text-xs font-semibold cursor-pointer border-0 ' + (state.selectedCategory === 'all' ? 'bg-[#173D32] text-[#F8F6EF]' : 'bg-white text-[#173D32]') + '">All (14)</button>' +
+                '</div>' +
+              '</div>' +
+              '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">' +
+                filtered.map(renderProductCard).join('') +
+              '</div>' +
+            '</div>';
+        }
+
+        function renderCart() {
+          var itemsEl = document.getElementById('dxn-standalone-cart-items');
+          var footerEl = document.getElementById('dxn-standalone-cart-footer');
+          if (!itemsEl || !footerEl) return;
+
+          if (state.cart.length === 0) {
+            itemsEl.innerHTML = '<p class="text-xs text-[#252B27]/70 py-8 text-center">Your shopping bag is currently empty.</p>';
+            footerEl.innerHTML = '';
+            return;
+          }
+
+          itemsEl.innerHTML = state.cart.map(function (item) {
+            return (
+              '<div class="p-3 rounded-lg bg-white border border-[#A8B9A0]/40 flex items-center justify-between gap-3 text-xs">' +
+                '<div>' +
+                  '<div class="font-semibold text-[#173D32]">' + item.name + '</div>' +
+                  '<div class="font-mono-tabular text-[#245B45]">৳' + item.price + ' × ' + item.qty + '</div>' +
+                '</div>' +
+                '<button type="button" onclick="window.dxnApp.removeFromCart(' + item.id + ')" class="text-xs text-red-700 underline bg-transparent border-0 cursor-pointer">Remove</button>' +
+              '</div>'
+            );
+          }).join('');
+
+          var totals = getCartTotals();
+          footerEl.innerHTML =
+            '<div class="space-y-1.5 text-xs font-mono-tabular">' +
+              '<div class="flex justify-between"><span>Subtotal</span><span>৳' + totals.subtotal + '</span></div>' +
+              '<div class="flex justify-between"><span>Shipping (' + state.shippingZone + ')</span><span>৳' + totals.shipping + '</span></div>' +
+              '<div class="flex justify-between font-bold text-sm text-[#173D32] pt-2 border-t border-[#A8B9A0]/30"><span>Total (BDT)</span><span>৳' + totals.total + '</span></div>' +
+            '</div>' +
+            '<button type="button" onclick="window.dxnApp.completeStandaloneOrder()" class="w-full py-3 rounded-lg bg-[#173D32] text-[#F8F6EF] text-xs font-semibold hover:bg-[#245B45] cursor-pointer border-0">Confirm Bangladesh Order (COD / bKash / Nagad)</button>';
+        }
+
+        window.dxnApp = {
+          navigate: function (view) {
+            state.view = view;
+            renderView();
+          },
+          filterCategory: function (slug) {
+            state.selectedCategory = slug;
+            state.view = 'shop';
+            renderView();
+          },
+          setSearch: function (q) {
+            state.searchQuery = q;
+            renderView();
+          },
+          addToCart: function (productId) {
+            var prod = PRODUCTS.find(function (p) { return p.id === productId; });
+            if (!prod) return;
+            var existing = state.cart.find(function (i) { return i.id === productId; });
+            if (existing) {
+              existing.qty += 1;
+            } else {
+              state.cart.push({ id: prod.id, name: prod.name, price: prod.discountPrice, qty: 1 });
+            }
+            renderView();
+            renderCart();
+            this.toggleCart(true);
+          },
+          removeFromCart: function (productId) {
+            state.cart = state.cart.filter(function (i) { return i.id !== productId; });
+            renderView();
+            renderCart();
+          },
+          toggleCart: function (open) {
+            var modal = document.getElementById('dxn-standalone-cart-modal');
+            if (!modal) return;
+            if (open) {
+              renderCart();
+              modal.classList.remove('hidden');
+            } else {
+              modal.classList.add('hidden');
+            }
+          },
+          completeStandaloneOrder: function () {
+            var totals = getCartTotals();
+            var newNo = 'DXN-2026-' + Math.floor(10000 + Math.random() * 89999);
+            state.orders.unshift({
+              orderNumber: newNo,
+              customer: 'Valued Customer',
+              phone: '01700-000000',
+              district: 'Dhaka',
+              status: 'Confirmed',
+              payment: 'Cash on Delivery',
+              total: totals.total,
+              date: new Date().toISOString().slice(0, 10)
+            });
+            state.cart = [];
+            this.toggleCart(false);
+            state.view = 'track';
+            renderView();
+            var resEl = document.getElementById('dxn-track-result');
+            if (resEl) {
+              resEl.textContent = 'Order Confirmed! Order #' + newNo + ' · Status: Confirmed · Total: ৳' + totals.total;
+            }
+          },
+          lookupOrder: function () {
+            var input = document.getElementById('dxn-track-input');
+            var resEl = document.getElementById('dxn-track-result');
+            if (!input || !resEl) return;
+            var code = input.value.trim().toUpperCase();
+            var found = state.orders.find(function (o) { return o.orderNumber === code; });
+            resEl.textContent = found
+              ? 'Order ' + found.orderNumber + ' · Status: ' + found.status + ' · Destination: ' + found.district + ' · Total: ৳' + found.total
+              : 'Order ' + code + ' not found. Try DXN-2026-84910.';
+          }
+        };
+
+        window.addEventListener('DOMContentLoaded', function () {
+          if (!window.__DXN_REACT_MOUNTED__) {
+            renderView();
+          }
+        });
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
